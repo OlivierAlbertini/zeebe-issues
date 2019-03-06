@@ -1,0 +1,17 @@
+{
+  "name": "zeebe-issues",
+  "version": "1.0.0",
+  "description": "Reproduce issue with Zeebe",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=zeebe-node:* ts-node src/worker.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3",
+    "uuid": "^3.3.2",
+    "zeebe-node": "^1.0.5"
+  }
+}
