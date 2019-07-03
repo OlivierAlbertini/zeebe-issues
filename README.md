@@ -4,7 +4,7 @@
 
 In a simple workflow:
 
-![](img/workflow.png)
+![](img/workflow1.png)
 
 The worker fail the job that it receives from Zeebe. From 0 to 126 retries everthing is fine. When we reach 127 retries, the job stays stuck in Zeebe workflow and we can't get back to the worker even after restarting zeebe_broker / worker.
 
