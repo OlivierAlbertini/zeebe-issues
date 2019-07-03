@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-node": "^8.0.2",
-    "typescript": "^3.3.3",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2",
     "uuid": "^3.3.2",
-    "zeebe-node": "^1.0.5"
+    "zeebe-node": "^2.3.0"
   }
 }

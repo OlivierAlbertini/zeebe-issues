@@ -8,6 +8,6 @@ export enum TaskType {
 
 export enum MessageName {
 
-    MSG_START_TEST = "MSG-START_TEST",
+    MSG_START_TEST = "__MESSAGE_START_EVENT__",
 
 }
